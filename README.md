@@ -8,7 +8,7 @@ This project uses **Terraform** to provision a highly available infrastructure o
 - **Compute:** Auto Scaling Group (ASG) behind an Application Load Balancer (ALB).
 - **Security:** IAM roles with least-privilege and managed Security Groups.
 
-## 📋 Prerequisites
+### 📋 Prerequisites
 Before you begin, ensure you have the following:
 - [Terraform CLI](https://hashicorp.com) (v1.0+) installed.
 - [AWS CLI](https://amazon.com) configured with appropriate credentials.
