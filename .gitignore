@@ -1,4 +1,11 @@
-# Ignore everything in this directory
-*
-# Except this file
-!.gitignore
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform working directory
+.terraform/
+
+# Ignore sensitive variable files (optional)
+*.tfvars
+
+# Keep everything else tracked
