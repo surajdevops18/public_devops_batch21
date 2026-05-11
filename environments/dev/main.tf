@@ -19,6 +19,6 @@ module "vpc" {
 
   ]
 
-  environment = "dev"
+  environment = "prod"
 
 }
